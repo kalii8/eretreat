@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.title {
+    background-color: pink;
+    padding: 0 5px;
+    margin-top: 4rem;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+.picture img{
+    width: 100%;
+}
+
+.heading {
+    color: pink;
+    font-weight: bold;
+    font-size: 150%;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.column{
+    display: inline-block;
+    width: 33%;
+    padding: 4rem;
+    text-align: center;    
+}
